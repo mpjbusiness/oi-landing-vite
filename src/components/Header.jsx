@@ -10,7 +10,7 @@ export default function Header() {
         {/* Header image from /public/assets */}
         <div className="mx-auto mb-6 sm:mb-8 w-full max-w-5xl rounded-2xl border border-oi-brand/50 bg-white/5 flex items-center justify-center overflow-hidden px-4 sm:px-6 md:px-8 shadow-[0_0_15px_rgba(102,102,255,0.4)]">
           <img
-            src="/assets/openIndustrialLogo_whiteOpen.svg"
+            src="src/assets/openIndustrialLogo_whiteOpen.svg"
             alt="Open Industrial Logo"
             className="h-16 sm:h-20 md:h-24 lg:h-28 xl:h-32 w-auto object-contain"
           />
@@ -32,7 +32,7 @@ export default function Header() {
         {/* Workspace example image */}
         <div className="mt-10 flex justify-center">
           <img
-            src="/assets/OI-live-workspace-example.png"
+            src="src/assets/OI-live-workspace-example.png"
             alt="Open Industrial Live Workspace Example"
             className="rounded-xl border border-oi-brand/50 shadow-[0_0_15px_rgba(102,102,255,0.4)] max-w-full h-auto"
           />
