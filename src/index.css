@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global tweaks */
+:root {
+  color-scheme: dark;
+}
+body { @apply font-sans bg-oi-bg text-oi-text; }
+.container { @apply max-w-7xl mx-auto px-4; }
+.kbd { @apply rounded border border-white/10 bg-white/5 px-2 py-0.5 text-xs; }
+.badge { @apply inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs uppercase tracking-wide; }
+.card { @apply rounded-2xl border border-white/10 bg-white/5 p-6; }
+.h1 { @apply text-4xl md:text-6xl font-semibold; }
+.h2 { @apply text-2xl md:text-3xl font-semibold; }
+.p { @apply text-base md:text-lg text-white/80; }
+.link { @apply text-oi-cyan hover:text-oi-brand underline-offset-4 hover:underline; }
+.btn { @apply inline-flex items-center justify-center gap-2 rounded-xl bg-oi-brand px-4 py-2 font-semibold text-white shadow-glow hover:opacity-90 transition; }
+.btn-outline { @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 px-4 py-2 font-semibold text-white hover:bg-white/10 transition; }
+.highlight { @apply text-oi-fuchsia; }
+section {
+  @apply text-center;
+}
