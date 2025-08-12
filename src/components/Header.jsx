@@ -32,7 +32,7 @@ export default function Header() {
         {/* Workspace example image */}
         <div className="mt-10 flex justify-center">
           <img
-            src="assets/OI-live-workspace-example.png"
+            src="oi-landing-vite/assets/OI-live-workspace-example.png"
             alt="Open Industrial Live Workspace Example"
             className="rounded-xl border border-oi-brand/50 shadow-[0_0_15px_rgba(102,102,255,0.4)] max-w-full h-auto"
           />
