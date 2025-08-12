@@ -1,10 +1,9 @@
-// vite.config.js at project root
+// vite.config.js
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// If deploying to https://<user>.github.io/<repo>/ set base to '/<repo>/'
-// If deploying to https://<user>.github.io/ (root site), leave base: '/'
 export default defineConfig({
   plugins: [react()],
-  base: '/' // <-- change to your repo name (or '/' for root user site)
+  // IMPORTANT: repo name here
+  base: '/oi-landing-vite/',
 })
